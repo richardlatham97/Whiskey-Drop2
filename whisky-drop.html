@@ -7,84 +7,138 @@
     <title>Whisky Drop | Taste a new whiskey every month</title>
 </head>
 <body>
-    <article class ="container">
-    
-    <section class="callout">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whisky Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+        </ul>
+    <div class="d-none d-md-block">
+        <p class="navbar-text my-auto mr-2">Great Whisky delivered to your door!</p>
+        <a href="/login">Sign In / Sign Up</a>
+    </div>
+    </nav>
+    <article class ="container mt-3">
+    <!--Callout-->
+    <div class="row">
+        <div class="col-12">
+    <section class="callout jumbotron text-center">
         <h1>Only the finest whiskys delivered to your door.</h1>
-        <p class="lead">Join our subscription sevice today<s>€19.99</s> <strong><mark>First one is free!</mark></strong></p>
+        <p class="lead">Join our subscription sevice today
+            <s class="d-none d-sm-inline">€19.99</s>
+            <span class="d-inline d-sm-none"><br></span>
+        <strong><mark>First one is free!</mark></strong></p>
         <button class="btn-success btn-lg">Sign Up!</button>
         <p class="text-muted"><small>You must be 18 or over to sign up to our service. Please drink responsibly.</small></p>
     </section>
+    
+        </div>
+    </div>
+    <!--/.callout-->
     <hr>
+
+    <!--Quotes-->
     <section class="quotes">
-        <h2 class="text-uppercase">Quotes:</h2>
+    <div class="row">
+        <div class="col-12 my-5">
+            <h2 class="text-uppercase">Quotes:</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
         <blockquote class="quote">
             <p>So easy to drink, flows down the throat like warm nectar.</p>
             <footer>Eivor on <cite title="Twitter">Twitter</cite></footer>
         </blockquote>
-
+        </div>
+        <div class="col-12 col-md-6">
         <blockquote class="quote">
             <p>After my first taste of this whisky I have come back for more </p>
             <footer> Charlotte on <cite title="Twitter">Twitter</cite></footer>
         </blockquote>
-
-        <blockquote class="quote">
-            <p>The only thing consistent in my life is this whisky.</p>
-            <footer> Dawid on <cite title="Twitter">Twitter</cite></footer>
-        </blockquote>
+        </div>
+    </div>
     </section>
+    <!--/.Quotes-->
+
     <hr>
+
+    <!--Features-->
     <section class="features">
+        <div class="row">
+            <div class="col-12 my-5">
         <h2 class="text-uppercase">Features:</h2>
+            </div>
+        </div>
+            <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
                 <h3>Feature 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
             </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
                 <h3>Feature 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
             </div>
+            </div>
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
             <div class="feature">
                 <h3>Feature 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
             </div>
+            </div>
+        </div>
     </section>
+    <!--/.Features-->
 
     <hr>
 
+    <!--Table-->
     <section>
-    <h2>Our whiskys</h2>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Origin</th>
-    </tr>
-  </thead>
+        <div class="row">
+            <div class="col-12">
+            <h2>Our most popular whiskies</h2>
+            </div>
+        </div>
 
-  <tbody>
-    <tr>
-      <th scope="col">Jack Daniels Reserve</th>
-      <td>Tenesee</td>
-    </tr>
+    <div class="row">
+    <div class="col-12">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Origin</th>
+            </tr>
+        </thead>
 
-    <tr>
-      <th scope="col">Haig Club Clubman</th>
-      <td>Scotland</td>
-    </tr>
+        <tbody>
+            <tr>
+                <th scope="col">Jack Daniels Reserve</th>
+                <td>Tenesee</td>
+            </tr>
 
-     <tr>
-      <th scope="col"> Glenfiddich</th>
-      <td>Scotland</td>
-    </tr>
-  </tbody>
+            <tr>
+                <th scope="col">Haig Club Clubman</th>
+                <td>Scotland</td>
+            </tr>
+
+            <tr>
+                <th scope="col"> Glenfiddich</th>
+                <td>Scotland</td>
+            </tr>
+        </tbody>
   
-</table>
+    </table>
+    </div>
+    </div>
     </section>
-
+    <!--/.Table-->
 
 </article>
 </body>
